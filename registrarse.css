@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Space+Grotesk:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Serif:ital,opsz@1,8..144&family=Space+Grotesk:wght@300&display=swap");
+
+/* REGISTRO */
+
+body {
+  background-image: url(./img/fondo-.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  color: #fafafa;
+  font-family: "Roboto Serif", serif;
+}
+
+.conteiner__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+
+.conteiner__body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.conteiner__body * {
+  z-index: 30;
+  position: relative;
+}
+
+.conteiner__checkin {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: initial;
+}
+.conteiner__checkin h1 {
+  font-family: "Roboto Serif", serif;
+  font-size: 50px;
+}
+.form_checkin {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.button_registrarse {
+  padding: 10px 90px;
+  border-radius: 10px;
+  background-color: #4c2b36;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  box-shadow: -2px 2px 39px 8px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: -2px 2px 39px 8px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: -2px 2px 39px 8px rgba(0, 0, 0, 0.59);
+  color: #fafafa;
+  margin-top: 50px;
+}
+
+.conteiner__checkin input {
+  border-radius: 20px;
+  text-align: initial;
+  padding: 20px 100px;
+}
+
+a {
+  color: brown;
+}
+
+.link_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  margin: 20px;
+}

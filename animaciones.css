@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+.cart_icon {
+  transition: all 0.5s ease-out;
+}
+
+.cart_icon:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.hero__section-link,
+.agregar,
+.button_ingresar,
+.button_registrarse {
+  transition: all 0.5s ease-in;
+}
+
+.hero__section-link:hover,
+.agregar:hover,
+.button_ingresar:hover,
+.button_registrarse:hover {
+  background-color: brown;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideup {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  animation: fade 1.5s ease-in, slideup 0.9s ease-in-out;
+}
+
+.hero__section-text-para {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slideup 0.5s ease-in-out;
+  animation-delay: 0.3s;
+}
+
+.hero__section-botton {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slideup 0.7s ease-in-out;
+  animation-delay: 0.8s;
+}

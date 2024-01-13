@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylelogin.css" />
+    <link rel="stylesheet" href="./animaciones.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="conteiner__login">
+      <h1>Acceder</h1>
+      <form class="conteiner__form">
+        <input
+          type="text"
+          id="correo"
+          name="correo"
+          placeholder="Nombre de usuario o correo electrónico"
+          required
+        />
+        <input
+          type="password"
+          id="contraseña"
+          name="contraseña"
+          placeholder="Contraseña"
+          required
+        />
+        <div class="conteiner__check">
+          <div>
+            <input type="checkbox" />
+            <label for="checkbox">Recuérdame</label>
+          </div>
+          <a href="#">¿Olvidaste la contraseña?</a>
+        </div>
+      </form>
+      <button class="button_ingresar">Acceso</button>
+      <div class="conteiner__ingresar">
+        <p>¿Sin cuenta?</p>
+        <a href="./registrarse.html">Registrarse</a>
+      </div>
+      <a href="./index.html">Volver al inicio</a>
+    </div>
+  </body>
+</html>
