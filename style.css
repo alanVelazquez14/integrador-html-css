@@ -201,6 +201,7 @@ body {
 
 .conteiner {
   max-width: 500px;
+  align-items: stretch;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
@@ -211,12 +212,12 @@ body {
   flex-direction: column;
   font-family: "Roboto Serif", serif;
   color: #fafafa;
-  gap: 20px;
+  gap: 30px;
 }
 
 .conteiner__info-p {
   text-align: left;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .conteiner__info {
@@ -251,6 +252,12 @@ body {
   align-items: center;
 }
 
+.conteiner__info-content {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .agregar {
   background-color: #4c2b36;
   padding: 10px 20px;
@@ -265,6 +272,9 @@ body {
   box-shadow: -2px 2px 39px 8px rgba(0, 0, 0, 0.59);
   -webkit-box-shadow: -2px 2px 39px 8px rgba(0, 0, 0, 0.59);
   -moz-box-shadow: -2px 2px 39px 8px rgba(0, 0, 0, 0.59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* SOBRE NOSOTROS */
