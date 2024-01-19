@@ -211,3 +211,79 @@
     font-size: 50px;
   }
 }
+
+@media screen and (max-width: 400px ){
+  .hero__section-text h1{
+    font-size: 40px;
+  }
+  .hero__section-text-para {
+    font-size: 10px;
+  }
+  
+  .hero__section{
+  }
+
+  .section__product h2{
+    font-size: 30px;
+  }
+
+  .conteiner__info img{
+    width: 150px;
+    height: 130px;
+  }
+  .conteiner__info-h3 {
+    font-size: 11px;
+    text-align: left;
+  }
+  .agregar{
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .conteiner__info-value span strong{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .section_about-text h2{
+    font-size: 30px;
+  }
+  .section_about-text p{
+    font-size: 10px;
+  }
+
+  .section__contac-h2{
+    font-size: 35px;
+  }
+  .section__contac-text li{
+    font-size: 10px;
+  }
+  .section__contac-form h4{
+    font-size: 15px;
+  }
+
+  /*Página login*/
+  .conteiner__login h1{
+    font-size: 25px;
+  }
+  .conteiner__check{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conteiner__check a{
+    font-size: 15px;
+  }
+.conteiner__ingresar p, .conteiner__ingresar a{
+  font-size: 15px;
+}
+
+/*Página de registro*/
+
+.conteiner__checkin h1{
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.button_registrarse{
+  font-size: 15px;
+}
+}
