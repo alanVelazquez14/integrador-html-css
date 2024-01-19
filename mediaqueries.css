@@ -196,7 +196,15 @@
   .section__contac-iframe {
     display: none;
   }
+  .hero__section-text h1{
+    font-size: 60px;
+  }
+
+  .hero__section-text-para {
+    font-size: 15px;
+  }
 }
+
 
 @media screen and (max-width: 480px) {
   .logo img {
