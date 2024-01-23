@@ -400,7 +400,7 @@ body {
 .section__contac-text {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 70px;
 }
 
 .section__contac-redes a {
@@ -415,10 +415,11 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  margin-top: 50px;
+  gap: 50px;
+  padding: 0 50px;
 }
 
 .section__contac-form h4 {

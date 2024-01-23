@@ -225,12 +225,9 @@
     font-size: 40px;
   }
   .hero__section-text-para {
-    font-size: 10px;
+    font-size: 15px;
   }
   
-  .hero__section{
-  }
-
   .section__product h2{
     font-size: 30px;
   }
@@ -253,10 +250,24 @@
   }
 
   .section_about-text h2{
-    font-size: 30px;
+    font-size: 40px;
+
   }
   .section_about-text p{
-    font-size: 10px;
+    font-size: 15px;
+  }
+
+  .section_about-cards-info{
+    padding: 10px;
+  }
+
+  .section__contac-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
   }
 
   .section__contac-h2{
@@ -284,6 +295,7 @@
 .conteiner__ingresar p, .conteiner__ingresar a{
   font-size: 15px;
 }
+
 
 /*Página de registro*/
 
